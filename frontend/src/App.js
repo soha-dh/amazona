@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route } from "react-router-dom";
 import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from "./screens/ProductScreen";
 
@@ -17,10 +17,8 @@ function App() {
         </div>
       </header>
       <main>
-        <Routes>
-          <Route path="/product/:id" element={<ProductScreen />} />
-          <Route path="/" element={<HomeScreen />} />
-        </Routes>
+        <Route path="/product/:id" component={ProductScreen}></Route>
+        <Route path="/" component={HomeScreen} exact></Route>
       </main>
       <footer className="row center">All Right Reserved</footer>
     </div>
