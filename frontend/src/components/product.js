@@ -1,6 +1,5 @@
 import React from "react";
 import Rating from "./Rating";
-import { useParams } from "react-router-dom";
 
 export default function Product(props) {
   const { product } = props;
