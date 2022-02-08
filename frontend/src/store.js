@@ -1,6 +1,7 @@
 import { applyMiddleware, combineReducers, compose, createStore } from "redux";
-import { cartReducer } from "./reducers/cartReducers";
+
 import thunk from "redux-thunk";
+import { cartReducer } from "./reducers/cartReducers";
 import {
   productDetailsReducer,
   productListReducer,
@@ -9,7 +10,7 @@ import {
 const initialState = {
   cart: {
     cartItems: localStorage.getItem("cartItems")
-      ? JSON.parse(localStorage.getItem("cartItem"))
+      ? JSON.parse(localStorage.getItem("cartItems"))
       : [],
   },
 };
