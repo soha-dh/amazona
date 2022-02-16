@@ -17,7 +17,6 @@ const Data = {
   ],
   products: [
     {
-      _id: "1",
       name: "Nike Slim Shirt",
       category: "Shirts",
       image: "/images/p1.jpg",
@@ -29,7 +28,6 @@ const Data = {
       description: "high quality product",
     },
     {
-      _id: "2",
       name: "adidas Slim Shirt",
       category: "Shirts",
       image: "/images/p2.jpg",
@@ -41,7 +39,6 @@ const Data = {
       description: "high quality shirt",
     },
     {
-      _id: "3",
       name: "Lacost Shirt",
       category: "Shirts",
       image: "/images/p3.jpg",
@@ -53,7 +50,6 @@ const Data = {
       description: "Normal quality product",
     },
     {
-      _id: "4",
       name: "salamon Shirt",
       category: "Shirts",
       image: "/images/p4.jpg",
@@ -65,7 +61,6 @@ const Data = {
       description: "cheep product",
     },
     {
-      _id: "5",
       name: "Nike pant",
       category: "pant",
       image: "/images/p5.jpg",
@@ -77,7 +72,6 @@ const Data = {
       description: "high quality product",
     },
     {
-      _id: "6",
       name: "dandg cote",
       category: "Cote",
       image: "/images/p6.jpg",
